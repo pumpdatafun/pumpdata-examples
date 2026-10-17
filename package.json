@@ -1,0 +1,31 @@
+{
+  "name": "pumpdata-examples",
+  "private": true,
+  "type": "module",
+  "description": "Paid /baserate calls to pumpdata.fun over x402: plain fetch, ElizaOS, solana-agent-kit, Vercel AI SDK",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "fetch": "tsx x402-fetch.ts",
+    "eliza": "tsx elizaos-action.ts",
+    "agent-kit": "tsx solana-agent-kit-tool.ts",
+    "ai-sdk": "tsx vercel-ai-tool.ts"
+  },
+  "dependencies": {
+    "@elizaos/core": "^1.7.2",
+    "@solana/kit": "^8.5.0",
+    "@solana/web3.js": "^1.99.0",
+    "@x402/fetch": "^2.28.0",
+    "@x402/svm": "^2.28.0",
+    "ai": "^7.0.143",
+    "solana-agent-kit": "^2.0.10",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
