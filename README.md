@@ -1,7 +1,7 @@
 # pumpdata examples
 
-Calling [pumpdata.fun](https://pumpdata.fun?utm_source=github&utm_medium=listing&utm_campaign=open) from an agent or a script: every PumpSwap trade, ever, and every
-pump.fun bonding-curve trade since March 2025, read from the chain's ledger with the dead coins kept, sold by the
+Calling [pumpdata.fun](https://pumpdata.fun?utm_source=github&utm_medium=listing&utm_campaign=open) from an agent or a script: every pump.fun trade, ever, bonding curve and
+PumpSwap, since pump.fun's first day, read from the chain's ledger with the dead coins kept, sold by the
 call in USDC over [x402](https://x402.org) on Solana. No key, no account.
 
 | call | asks | price |
